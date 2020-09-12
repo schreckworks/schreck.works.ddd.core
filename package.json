@@ -1,0 +1,48 @@
+{
+  "name": "@schreck-works/ddd-core",
+  "version": "1.0.0",
+  "description": "typescript domain driven design core files",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "precommit": "git add .",
+    "commit": "npx git-cz",
+    "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.tests.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schreckworks/schreck.works.ddd.core.git"
+  },
+  "author": "Tom Schreck <tom@schreck.works> (http://www.schreck.works)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schreckworks/schreck.works.ddd.core/issues"
+  },
+  "homepage": "https://github.com/schreckworks/schreck.works.ddd.core#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "module-alias": "^2.2.2",
+    "path": "^0.12.7",
+    "shallow-equal-object": "^1.1.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.10.1",
+    "@types/uuid": "^8.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
