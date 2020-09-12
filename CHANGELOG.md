@@ -1,3 +1,12 @@
+## [1.0.9](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.6...1.0.9) (2020-09-12)
+
+
+### Bug Fixes
+
+* **uniqueentity:** removed console.log ([efc3b94](https://github.com/schreckworks/schreck.works.ddd.core/commit/efc3b94dcec64712c23f40f9dcc383ae9547c151))
+
+
+
 ## [1.0.6](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.3...1.0.6) (2020-09-12)
 
 
