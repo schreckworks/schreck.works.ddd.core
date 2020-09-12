@@ -21,10 +21,6 @@ export class UniqueEntityID extends Identifier<string | number>
 
   private static isNewIdGenerated(id?: string | number): boolean
   {
-    const _isNewIdentifier: boolean = ((id === undefined) || (id === null));
-
-    // console.log('bubbles', id, _isNewIdentifier);
-
-    return _isNewIdentifier;
+    return ((id === undefined) || (id === null));
   }
 }
