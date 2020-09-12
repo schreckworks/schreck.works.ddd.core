@@ -1,3 +1,13 @@
+## [1.0.13](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.10...1.0.13) (2020-09-12)
+
+
+### Bug Fixes
+
+* **identifier:** identifier ([1d13a0c](https://github.com/schreckworks/schreck.works.ddd.core/commit/1d13a0ca1fde18b8272c3659476989ad116ee2af))
+* **prepuublish:** removed prepublish ([71ccdd6](https://github.com/schreckworks/schreck.works.ddd.core/commit/71ccdd6ca2bca518d7baf8fa76cd7fb7ad2812cc))
+
+
+
 ## [1.0.10](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.9...1.0.10) (2020-09-12)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * **domain:** fixed identifier ([ecc8260](https://github.com/schreckworks/schreck.works.ddd.core/commit/ecc82605b4c9f41f8f079c34183ab351b0d7f299))
-
-
-
-## [1.0.2](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.1...1.0.2) (2020-09-12)
-
-
-### Bug Fixes
-
-* **build:** build process to exclude src folder from publishing ([7cee3fe](https://github.com/schreckworks/schreck.works.ddd.core/commit/7cee3fee6ef879cefb0a46572ca1cee9f84f480c))
 
 
 

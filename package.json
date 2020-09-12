@@ -1,6 +1,6 @@
 {
   "name": "@schreck-works/ddd-core",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "typescript domain driven design core files",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
