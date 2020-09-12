@@ -1,3 +1,12 @@
+## [1.0.14](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.13...1.0.14) (2020-09-12)
+
+
+### Bug Fixes
+
+* **domain event:** changed scope of domain event from event to domain event ([a5fbd66](https://github.com/schreckworks/schreck.works.ddd.core/commit/a5fbd660aee8588296b1436fa69ef7bbbe58ea8c))
+
+
+
 ## [1.0.13](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.10...1.0.13) (2020-09-12)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * **domain:** identity ([3004314](https://github.com/schreckworks/schreck.works.ddd.core/commit/30043143debc5dcb8965a9fbd602d138916acaa4))
-
-
-
-## [1.0.3](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.2...1.0.3) (2020-09-12)
-
-
-### Bug Fixes
-
-* **domain:** fixed identifier ([ecc8260](https://github.com/schreckworks/schreck.works.ddd.core/commit/ecc82605b4c9f41f8f079c34183ab351b0d7f299))
 
 
 
