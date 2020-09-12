@@ -1,6 +1,6 @@
 {
   "name": "@schreck-works/ddd-core",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "description": "typescript domain driven design core files",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -11,7 +11,6 @@
     "prebuild": "rimraf lib",
     "build": "tsc && npm pack",
     "precommit": "git add .",
-    "prepublish": "tsc",
     "commit": "npx git-cz",
     "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.tests.ts"
   },
