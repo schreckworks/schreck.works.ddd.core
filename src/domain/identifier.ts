@@ -25,7 +25,7 @@ export class Identifier<T>
       return false;
     }
 
-    return id.toValue() === this.value;
+    return (id.toValue() === this.value);
   }
 
   toString()
