@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.3...1.0.6) (2020-09-12)
+
+
+### Bug Fixes
+
+* **domain:** identity ([3004314](https://github.com/schreckworks/schreck.works.ddd.core/commit/30043143debc5dcb8965a9fbd602d138916acaa4))
+
+
+
 ## [1.0.3](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.2...1.0.3) (2020-09-12)
 
 
