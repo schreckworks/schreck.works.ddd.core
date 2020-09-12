@@ -1,0 +1,1 @@
+{"version":3,"file":"unique-entity-id.d.ts","sourceRoot":"","sources":["../../src/domain/unique-entity-id.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE1C,qBAAa,cAAe,SAAQ,UAAU,CAAC,MAAM,GAAG,MAAM,CAAC;IAE7D,OAAO;WAKO,MAAM,CAAC,EAAE,CAAC,EAAE,MAAM,GAAG,MAAM,GAAG,cAAc;IAK1D,OAAO,CAAC,MAAM,CAAC,aAAa;IAK5B,OAAO,CAAC,MAAM,CAAC,gBAAgB;CAIhC"}
