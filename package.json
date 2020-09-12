@@ -3,6 +3,7 @@
   "version": "1.0.8",
   "description": "typescript domain driven design core files",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "/lib"
   ],
@@ -10,6 +11,7 @@
     "prebuild": "rimraf lib",
     "build": "tsc && npm pack",
     "precommit": "git add .",
+    "prepublish": "tsc",
     "commit": "npx git-cz",
     "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.tests.ts"
   },
