@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.1.0...2.0.0) (2020-09-13)
+
+
+### Bug Fixes
+
+* **ihandler:** make handler Async ([412c54f](https://github.com/schreckworks/schreck.works.ddd.core/commit/412c54f3ed13ee6641fcf83b81d8ef39ab119214))
+
+
+### BREAKING CHANGES
+
+* **ihandler:** renamded IHandler.handle to IHandler.handleAsync
+
+
+
 # [1.1.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.14...1.1.0) (2020-09-13)
 
 
@@ -32,15 +46,6 @@
 ### Bug Fixes
 
 * **declarations:** add declarations to publish process ([50c5480](https://github.com/schreckworks/schreck.works.ddd.core/commit/50c5480ed2c523d5b7b97990e00926cdc2677baa))
-
-
-
-## [1.0.9](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.6...1.0.9) (2020-09-12)
-
-
-### Bug Fixes
-
-* **uniqueentity:** removed console.log ([efc3b94](https://github.com/schreckworks/schreck.works.ddd.core/commit/efc3b94dcec64712c23f40f9dcc383ae9547c151))
 
 
 
