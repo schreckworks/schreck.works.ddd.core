@@ -1,5 +1,6 @@
 export * from './aggregate-root';
 export * from './app-error';
+export * from './domain-event-handler';
 export * from './domain-event';
 export * from './entity';
 export * from './guard';
