@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.0...2.0.1) (2020-09-13)
+
+
+### Bug Fixes
+
+* **irepo:** adding input type for save method ([c2c969c](https://github.com/schreckworks/schreck.works.ddd.core/commit/c2c969ccd0433f94c4c91f7758f7a9b52ec8bf89))
+
+
+
 # [2.0.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.1.0...2.0.0) (2020-09-13)
 
 
@@ -37,15 +46,6 @@
 
 * **identifier:** identifier ([1d13a0c](https://github.com/schreckworks/schreck.works.ddd.core/commit/1d13a0ca1fde18b8272c3659476989ad116ee2af))
 * **prepuublish:** removed prepublish ([71ccdd6](https://github.com/schreckworks/schreck.works.ddd.core/commit/71ccdd6ca2bca518d7baf8fa76cd7fb7ad2812cc))
-
-
-
-## [1.0.10](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.9...1.0.10) (2020-09-12)
-
-
-### Bug Fixes
-
-* **declarations:** add declarations to publish process ([50c5480](https://github.com/schreckworks/schreck.works.ddd.core/commit/50c5480ed2c523d5b7b97990e00926cdc2677baa))
 
 
 
