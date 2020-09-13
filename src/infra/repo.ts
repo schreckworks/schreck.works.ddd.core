@@ -1,11 +1,11 @@
 import { UniqueEntityID } from "domain/unique-entity-id";
 
 
-export interface IRepo<T>
+export interface IRepo<TInput, TOutput>
 {
   collectionName: string;
 
-  existsAsync(item: T): Promise<boolean>;
-  saveAsync(item: T): Promise<T>;
-  getByIdAsync(id: UniqueEntityID): Promise<T>;
+  existsAsync(item: TOutput): Promise<boolean>;
+  saveAsync(item: TInput): Promise<TOutput>;
+  getByIdAsync(id: UniqueEntityID): Promise<TOutput>;
 }
