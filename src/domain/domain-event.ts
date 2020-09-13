@@ -1,4 +1,4 @@
-export interface IDomainEvent
+export interface IDomainEvent<T>
 {
-  publish(): void;
+  publish(input: T): void;
 }
