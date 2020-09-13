@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.14...1.1.0) (2020-09-13)
+
+
+### Features
+
+* **event handler:** created IHandler for handling pub/sub events ([8a7133d](https://github.com/schreckworks/schreck.works.ddd.core/commit/8a7133d5dc20204dcfbdb18c120110f45bfb488e))
+
+
+
 ## [1.0.14](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.13...1.0.14) (2020-09-12)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * **uniqueentity:** removed console.log ([efc3b94](https://github.com/schreckworks/schreck.works.ddd.core/commit/efc3b94dcec64712c23f40f9dcc383ae9547c151))
-
-
-
-## [1.0.6](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.3...1.0.6) (2020-09-12)
-
-
-### Bug Fixes
-
-* **domain:** identity ([3004314](https://github.com/schreckworks/schreck.works.ddd.core/commit/30043143debc5dcb8965a9fbd602d138916acaa4))
 
 
 
