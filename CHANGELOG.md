@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.1...2.0.2) (2020-09-13)
+
+
+### Bug Fixes
+
+* **irepo:** saveAsync return a promise of result for output ([570a0e2](https://github.com/schreckworks/schreck.works.ddd.core/commit/570a0e22f189063f126bd6c938b46b68e2f2b72f))
+
+
+
 ## [2.0.1](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.0...2.0.1) (2020-09-13)
 
 
@@ -36,16 +45,6 @@
 ### Bug Fixes
 
 * **domain event:** changed scope of domain event from event to domain event ([a5fbd66](https://github.com/schreckworks/schreck.works.ddd.core/commit/a5fbd660aee8588296b1436fa69ef7bbbe58ea8c))
-
-
-
-## [1.0.13](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.10...1.0.13) (2020-09-12)
-
-
-### Bug Fixes
-
-* **identifier:** identifier ([1d13a0c](https://github.com/schreckworks/schreck.works.ddd.core/commit/1d13a0ca1fde18b8272c3659476989ad116ee2af))
-* **prepuublish:** removed prepublish ([71ccdd6](https://github.com/schreckworks/schreck.works.ddd.core/commit/71ccdd6ca2bca518d7baf8fa76cd7fb7ad2812cc))
 
 
 
