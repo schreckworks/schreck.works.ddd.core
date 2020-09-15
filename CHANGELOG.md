@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.2...2.0.3) (2020-09-15)
+
+
+### Bug Fixes
+
+* **mapper:** refine mapper to use Result for toDomain only ([8f7176f](https://github.com/schreckworks/schreck.works.ddd.core/commit/8f7176f67929af13594f7ead7dde4db0f0679a22))
+
+
+
 ## [2.0.2](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.1...2.0.2) (2020-09-13)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * **event handler:** created IHandler for handling pub/sub events ([8a7133d](https://github.com/schreckworks/schreck.works.ddd.core/commit/8a7133d5dc20204dcfbdb18c120110f45bfb488e))
-
-
-
-## [1.0.14](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.13...1.0.14) (2020-09-12)
-
-
-### Bug Fixes
-
-* **domain event:** changed scope of domain event from event to domain event ([a5fbd66](https://github.com/schreckworks/schreck.works.ddd.core/commit/a5fbd660aee8588296b1436fa69ef7bbbe58ea8c))
 
 
 
