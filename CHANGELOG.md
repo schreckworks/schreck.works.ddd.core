@@ -1,3 +1,12 @@
+## [2.0.5](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.4...2.0.5) (2020-09-16)
+
+
+### Bug Fixes
+
+* **tslint:** tslint codedbase as wel as removed module-alias ([2be0477](https://github.com/schreckworks/schreck.works.ddd.core/commit/2be04777afa85ae3d6168e02685a70abb6010acf))
+
+
+
 ## [2.0.4](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.3...2.0.4) (2020-09-16)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * **irepo:** adding input type for save method ([c2c969c](https://github.com/schreckworks/schreck.works.ddd.core/commit/c2c969ccd0433f94c4c91f7758f7a9b52ec8bf89))
-
-
-
-# [2.0.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.1.0...2.0.0) (2020-09-13)
-
-
-### Bug Fixes
-
-* **ihandler:** make handler Async ([412c54f](https://github.com/schreckworks/schreck.works.ddd.core/commit/412c54f3ed13ee6641fcf83b81d8ef39ab119214))
-
-
-### BREAKING CHANGES
-
-* **ihandler:** renamded IHandler.handle to IHandler.handleAsync
 
 
 
