@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.3...2.0.4) (2020-09-16)
+
+
+### Bug Fixes
+
+* **paths:** added moduleAlias to handle pathing ([1e1dd67](https://github.com/schreckworks/schreck.works.ddd.core/commit/1e1dd67ebc88ac9580fd70457ab040f7d0fc7a0e))
+
+
+
 ## [2.0.3](https://github.com/schreckworks/schreck.works.ddd.core/compare/2.0.2...2.0.3) (2020-09-15)
 
 
@@ -36,15 +45,6 @@
 ### BREAKING CHANGES
 
 * **ihandler:** renamded IHandler.handle to IHandler.handleAsync
-
-
-
-# [1.1.0](https://github.com/schreckworks/schreck.works.ddd.core/compare/1.0.14...1.1.0) (2020-09-13)
-
-
-### Features
-
-* **event handler:** created IHandler for handling pub/sub events ([8a7133d](https://github.com/schreckworks/schreck.works.ddd.core/commit/8a7133d5dc20204dcfbdb18c120110f45bfb488e))
 
 
 
