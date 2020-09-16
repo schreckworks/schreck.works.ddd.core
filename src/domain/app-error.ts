@@ -1,5 +1,5 @@
-import { Result } from "./result";
-import { IUseCaseError } from "./use-case-error";
+import { Result } from './result';
+import { IUseCaseError } from './use-case-error';
 
 export class UnexpectedError
 {
@@ -7,8 +7,7 @@ export class UnexpectedError
 
   private constructor(err: any)
   {
-    const error: IUseCaseError =
-    {
+    const error: IUseCaseError = {
       message: `An unexpected error occurred.`,
       error: err
     };
@@ -20,5 +19,4 @@ export class UnexpectedError
   {
     return new UnexpectedError(err);
   }
-
 }

@@ -1,4 +1,3 @@
-
 export interface IGuardResult
 {
   succeeded: boolean;
@@ -18,9 +17,9 @@ export class Guard
 {
   public static combine(guardResults: IGuardResult[]): IGuardResult
   {
-    for (let result of guardResults)
+    for (const result of guardResults)
     {
-      if (result.succeeded === false) return result;
+      if (result.succeeded === false) { return result; }
     }
 
     return { succeeded: true };
@@ -40,10 +39,10 @@ export class Guard
 
   public static againstNullOrUndefinedBulk(args: GuardArgumentCollection): IGuardResult
   {
-    for (let arg of args)
+    for (const arg of args)
     {
       const result = this.againstNullOrUndefined(arg.argument, arg.argumentName);
-      if (!result.succeeded) return result;
+      if (!result.succeeded) { return result; }
     }
 
     return { succeeded: true };
@@ -53,7 +52,7 @@ export class Guard
   {
     let isValid = false;
 
-    for (let validValue of validValues)
+    for (const validValue of validValues)
     {
       if (value === validValue)
       {
@@ -90,9 +89,9 @@ export class Guard
 
   public static allInRange(numbers: number[], min: number, max: number, argumentName: string): IGuardResult
   {
-    let isFailingResult: boolean = false;
+    let isFailingResult = false;
 
-    for (let num of numbers)
+    for (const num of numbers)
     {
       const numIsInRangeResult = this.inRange(num, min, max, argumentName);
 
@@ -100,7 +99,7 @@ export class Guard
       {
         isFailingResult = !numIsInRangeResult.succeeded;
         break;
-      };
+      }
     }
 
     if (isFailingResult)

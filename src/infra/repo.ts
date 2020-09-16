@@ -1,6 +1,4 @@
-import { Result } from "domain/result";
-import { UniqueEntityID } from "domain/unique-entity-id";
-
+import { Result, UniqueEntityID } from '../domain';
 
 export interface IRepo<TInput, TOutput>
 {

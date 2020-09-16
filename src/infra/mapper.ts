@@ -1,4 +1,4 @@
-import { Result } from "domain/result";
+import { Result } from '../domain';
 
 
 export interface Mapper<TDomain, TDto>

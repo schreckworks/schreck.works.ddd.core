@@ -1,7 +1,6 @@
-
 export class Identifier<T>
 {
-  private _isNewIdentifier: boolean = false;
+  private _isNewIdentifier = false;
 
   public get isNewIdentifier(): boolean
   {

@@ -1,4 +1,4 @@
-import { UniqueEntityID } from "./unique-entity-id";
+import { UniqueEntityID } from './unique-entity-id';
 
 
 const isEntity = (v: any): v is Entity<any> =>
