@@ -1,1 +1,0 @@
-{"version":3,"file":"aggregate-root.d.ts","sourceRoot":"","sources":["../../src/domain/aggregate-root.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAClC,OAAO,EAAE,cAAc,EAAE,MAAM,GAAG,CAAC;AAEnC,8BAAsB,aAAa,CAAC,CAAC,CAAE,SAAQ,MAAM,CAAC,CAAC,CAAC;IAEtD,IAAI,EAAE,IAAI,cAAc,CAGvB;CACF"}

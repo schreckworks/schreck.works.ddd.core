@@ -1,1 +1,0 @@
-{"version":3,"file":"identifier.d.ts","sourceRoot":"","sources":["../../src/domain/identifier.ts"],"names":[],"mappings":"AACA,qBAAa,UAAU,CAAC,CAAC;IASX,OAAO,CAAC,KAAK;IAPzB,OAAO,CAAC,gBAAgB,CAAkB;IAE1C,IAAW,eAAe,IAAI,OAAO,CAGpC;gBAEmB,KAAK,EAAE,CAAC,EAAE,eAAe,EAAE,OAAO;IAMtD,MAAM,CAAC,EAAE,CAAC,EAAE,UAAU,CAAC,CAAC,CAAC,GAAG,OAAO;IAcnC,QAAQ;IAKR;;OAEG;IACH,OAAO,IAAI,CAAC;CAIb"}

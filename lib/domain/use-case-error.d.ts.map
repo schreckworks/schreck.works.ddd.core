@@ -1,1 +1,0 @@
-{"version":3,"file":"use-case-error.d.ts","sourceRoot":"","sources":["../../src/domain/use-case-error.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAE5B,OAAO,EAAE,MAAM,CAAC;IAChB,KAAK,EAAE,KAAK,CAAC;CACd;AAED,8BAAsB,YAAa,YAAW,aAAa;IAEzD,SAAgB,OAAO,EAAE,MAAM,CAAC;IAChC,SAAgB,KAAK,EAAE,KAAK,CAAC;gBAEjB,OAAO,EAAE,MAAM,EAAE,KAAK,CAAC,EAAE,KAAK;CAK3C"}
